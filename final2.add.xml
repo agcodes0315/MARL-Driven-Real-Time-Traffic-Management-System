@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-08 00:58:27 by Eclipse SUMO netedit Version 1.21.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="Road10_0D" lane="-R10_1" pos="250.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road10_1D" lane="-R10_2" pos="250.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road11_0D" lane="R11_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road11_1D" lane="R11_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road12_0D" lane="R12_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road12_1D" lane="R12_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road1_0D" lane="-R1_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road1_1D" lane="-R1_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road1_2D" lane="-R1_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road2_0D" lane="R2_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road2_1D" lane="R2_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road3_0D" lane="R3_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road3_1D" lane="R3_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_0D" lane="R4_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_1D" lane="R4_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_2D" lane="R4_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_2_0D" lane="-R4_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_2_1D" lane="-R4_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road4_2_2D" lane="-R4_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road5_0D" lane="-R5_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road5_1D" lane="-R5_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road6_0D" lane="R6_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road6_1D" lane="R6_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road6_2_0D" lane="-R6_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road6_2_1D" lane="-R6_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_0D" lane="-R7_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_1D" lane="-R7_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_2D" lane="-R7_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_2_0D" lane="R7_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_2_1D" lane="R7_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road7_2_2D" lane="R7_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road8_0D" lane="-R8_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road9_0D" lane="R9_0" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road9_1D" lane="R9_1" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+    <laneAreaDetector id="Road9_2D" lane="R9_2" pos="150.00" length="50.00" period="1.00" file="detector_output.xml"/>
+</additional>
