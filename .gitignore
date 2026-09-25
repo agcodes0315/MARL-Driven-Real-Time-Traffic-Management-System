@@ -26,3 +26,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 minor project report.docx
+
+# Secrets
+.env
+*.env

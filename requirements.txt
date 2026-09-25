@@ -2,6 +2,9 @@
 numpy
 traci
 
+# Google AI traffic analysis
+google-genai>=2.25.0
+
 # Cybersecurity layer
 cryptography>=41.0.0
 

@@ -414,6 +414,57 @@ This project brings together several engineering areas inside one simulation:
 - adversarial testing
 - simulation benchmarking
 
+## 🤖 Google Gemini Traffic Operations Analysis
+
+This project includes an optional **Google Gemini-powered advisory layer** that converts SUMO simulation metrics into human-readable traffic insights.
+
+`gemini_traffic_analyzer.py` reads the generated `adaptive_demo_results.csv`, aggregates the simulation metrics locally, and uses **Gemini 3.8 Flash** to analyze:
+
+- congestion patterns across intersections
+- adaptive controller behaviour
+- intersections requiring attention
+- areas for further investigation
+
+The generated analysis is saved as `gemini_traffic_analysis.md`.
+
+### Run
+
+Install the Google GenAI SDK:
+
+```bash
+python -m pip install -U google-genai
+```
+
+Set your Gemini API key:
+
+```powershell
+$env:GEMINI_API_KEY="YOUR_API_KEY"
+```
+
+Run the analyzer:
+
+```bash
+python gemini_traffic_analyzer.py
+```
+
+### Flow
+
+```text
+SUMO Simulation
+      ↓
+Adaptive Traffic Control
+      ↓
+Simulation Metrics
+      ↓
+Google Gemini 3.8 Flash
+      ↓
+Traffic Operations Analysis
+      ↓
+Human Operator / Researcher
+```
+
+> **Safety:** Gemini is advisory only. It does not control traffic signals or modify signal phases. The analysis is based on SUMO simulation data, not live municipal traffic data.
+
 ## ⚠️ Scope and Limitations
 
 This repository is a **simulation and research project**.
